@@ -67,4 +67,8 @@ The application uses Oracle XE as the database and Spring Data JPA/Hibernate for
 
 ## Author
 
-Thanu
+Thanusri.R.S
+## Project Screenshot
+
+![Employee Management System](main-page.png)
+
