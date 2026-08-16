@@ -1,0 +1,314 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: #f4f6f8;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#employeeList {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+td button {
+    margin: 3px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: #f4f6f8;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.header p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.employee-count {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Employee Form */
+
+#employeeForm {
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#employeeForm label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#employeeForm input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#employeeForm input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+#employeeForm button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 11px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Employee Table */
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    padding: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Table Buttons */
+
+table button {
+    padding: 7px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table button:hover {
+    opacity: 0.8;
+}
+/* Search Section */
+
+.search-box {
+    width: 90%;
+    max-width: 700px;
+    margin: 25px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-box input {
+    width: 350px;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.search-box button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-box button:hover {
+    opacity: 0.8;
+}
+
+/* Employee Count */
+
+.employee-count {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+/* Action Buttons */
+
+table button:first-child {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table button:last-child {
+    background-color: #E53935;
+    color: white;
+}
+
+table button:first-child:hover {
+    background-color: #45A049;
+}
+
+table button:last-child:hover {
+    background-color: #D32F2F;
+}
+
+/* Submit Button */
+
+#employeeForm button[type="submit"] {
+    background-color: #1976D2;
+    color: white;
+    transition: 0.3s;
+}
+
+#employeeForm button[type="submit"]:hover {
+    background-color: #1565C0;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+
+
+
+
+

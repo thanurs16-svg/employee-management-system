@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="header">
+     <h1>Employee Management System</h1>
+     <p>Manage employee records easily</p>
+     </div>
+     <h2>Add Employee</h2>
+
+    
+    <div class="search-box">
+    <input type="text" id="searchName" placeholder="Search employee by name">
+
+    <button onclick="searchEmployees()">Search</button>
+
+    <button onclick="loadEmployees()">Show All</button>
+    </div>
+    <div class="employee-count">
+    Total Employees: <span id="employeeCount">0</span>
+    </div>
+    
+    <form id="employeeForm">
+
+        <label>Name:</label>
+        <input type="text" id="name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label>Phone:</label>
+        <input type="text" id="phone">
+        <br><br>
+
+        <label>Department:</label>
+        <input type="text" id="department">
+        <br><br>
+
+        <label>Salary:</label>
+        <input type="number" id="salary">
+        <br><br>
+
+        <button type="submit">Add Employee</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Employees</h2>
+
+    <button onclick="loadEmployees()">View Employees</button>
+
+    <div id="employeeList"></div>
+
+    <script src="script.js"></script>
+    
+    <footer class="footer">
+    <p>© 2026 Employee Management System | Spring Boot + Oracle</p>
+    </footer>
+
+</body>
+</html>
